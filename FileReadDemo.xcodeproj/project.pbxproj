@@ -14,6 +14,7 @@
 		5B9B449019F9FFAB0095A792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B448F19F9FFAB0095A792 /* Images.xcassets */; };
 		5B9B449319F9FFAB0095A792 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B449119F9FFAB0095A792 /* LaunchScreen.xib */; };
 		5B9B449F19F9FFAB0095A792 /* FileReadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9B449E19F9FFAB0095A792 /* FileReadDemoTests.m */; };
+		5B9B44A919FA015A0095A792 /* moegirl-navbox-flatten in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B44A819FA015A0095A792 /* moegirl-navbox-flatten */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		5B9B449819F9FFAB0095A792 /* FileReadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileReadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9B449D19F9FFAB0095A792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B9B449E19F9FFAB0095A792 /* FileReadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileReadDemoTests.m; sourceTree = "<group>"; };
+		5B9B44A819FA015A0095A792 /* moegirl-navbox-flatten */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "moegirl-navbox-flatten"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		5B9B447619F9FFAB0095A792 = {
 			isa = PBXGroup;
 			children = (
+				5B9B44A819FA015A0095A792 /* moegirl-navbox-flatten */,
 				5B9B448119F9FFAB0095A792 /* FileReadDemo */,
 				5B9B449B19F9FFAB0095A792 /* FileReadDemoTests */,
 				5B9B448019F9FFAB0095A792 /* Products */,
@@ -202,6 +205,7 @@
 				5B9B448E19F9FFAB0095A792 /* Main.storyboard in Resources */,
 				5B9B449319F9FFAB0095A792 /* LaunchScreen.xib in Resources */,
 				5B9B449019F9FFAB0095A792 /* Images.xcassets in Resources */,
+				5B9B44A919FA015A0095A792 /* moegirl-navbox-flatten in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSURL * jsFileURL = [[NSBundle mainBundle] URLForResource:@"navbox-flatten.min" withExtension:@"js" subdirectory:@"moegirl-navbox-flatten"];
+    NSString * jsFileContent = [NSString stringWithContentsOfURL:jsFileURL encoding:NSUTF8StringEncoding error:nil];
+    
+    NSLog(@"%@", jsFileContent);
 }
 
 - (void)didReceiveMemoryWarning {
