@@ -1,0 +1,3 @@
+[submodule "moegirl-navbox-flatten"]
+	path = moegirl-navbox-flatten
+	url = git@github.com:Illvili/moegirl-navbox-flatten.git
